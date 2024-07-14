@@ -28,8 +28,13 @@ export function Private({ children }: PrivateProps) {
             unSub()
         }
     }, [])
+
     if (loading) {
-        return <div>teste...</div>
+        return (
+            <div className='w-full h-screen flex items-center justify-center'>
+                <h1>Carregando produtos...</h1>
+            </div>
+        )
     }
     if (!signed) {
         return <Navigate to='/login' />
