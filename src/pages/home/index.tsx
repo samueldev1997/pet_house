@@ -36,9 +36,9 @@ export function Home(){
     return(
         <div>
             <main className="w-full max-w-7xl mx-auto " >
-            <div className='max-w-xl mx-auto my-5 px-5  flex items-center justify-center relative' >
+            <div className='max-w-xl mx-auto py-14 px-5  flex items-center justify-center relative' >
                     <input 
-                        className='px-7 py-2 shadow-md w-full outline-none'
+                        className='bg-slate-50 px-7 py-2 shadow-lg w-full outline-none'
                         placeholder='Oque seu pet precisa?' 
                     />
                     <FaSearch 

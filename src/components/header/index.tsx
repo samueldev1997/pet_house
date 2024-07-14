@@ -28,7 +28,7 @@ export function Header() {
                 <Link to='/'>
                     <img src={logo} className='w-14' />
                 </Link>
-                <div className='flex gap-3 md:gap-10'>
+                <div className='flex gap-8 md:gap-10'>
                     <nav className='font-semibold'>
                         <ul className='flex gap-7'>
                             {!signed ? (
